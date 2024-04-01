@@ -1,10 +1,10 @@
 {
     "window.zoomLevel": 2,
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.hover.enabled": true,
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
-    "terminal.integrated.fontSize": 24,
+    "terminal.integrated.fontSize": 15,
     "editor.rulers": [80, 120],
     "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
     "workbench.iconTheme": "material-icon-theme",
@@ -22,9 +22,9 @@
       "editor.insertSpaces": true,
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.fixAll.unusedImports": true,
-        "source.organizeImports": true
+        "source.fixAll": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.organizeImports": "explicit"
       }
     },
     "python.languageServer": "Pylance",
@@ -47,7 +47,7 @@
       "reportUnknownLambdaType": "none",
       "reportUnknownParameterType": "none"
     },
-    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.defaultInterpreterPath": "./venv/Script/python",
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.enabled": true,
     "python.formatting.provider": "none"
